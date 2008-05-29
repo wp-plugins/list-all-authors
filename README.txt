@@ -3,7 +3,7 @@ Contributors: Andrea Heinrich
 Donate link: http://www.song-line.de/2008/05/25/plugin-list-all-authors/
 Tags: author list
 Requires at least: 1.5
-Tested up to: 2.3
+Tested up to: 2.5
 Stable tag: 1.0
 
 
@@ -11,11 +11,7 @@ Stable tag: 1.0
 1.0 initial release
 
 
-Englisch Translation below.
 
-
-
-Ich habe es geschafft! Mein erstes Plugin ist fertig und es läuft. 
 
 == Description ==
 
@@ -60,9 +56,9 @@ Anyone who wants to have a list of users with AND without posts, for exmple in m
 
 1. Download Plugin, unzip it and upload it to the to the root of your Wordpress "plugins" folder (should be file wp-content/plugins).
 2. Acivate it on the admin panel. 
-3. You get the list of authors wherever you want (sidebar or seperate page) by using the following code:
+3. You get the list of authors wherever you want (sidebar or separate page) by using the following code (delete the code-tags):
 
-<?php if (function_exists('wp_all_authors')) { ?><?php wp_all_authors('show_fullname=0&optioncount=1&hide_empty=0&exclude_admin=0'); ?><?php } ?>
+<code><?php if (function_exists('wp_all_authors')) { ?><?php wp_all_authors('show_fullname=0&optioncount=1&hide_empty=0&exclude_admin=0'); ?><?php } ?></code>
 
 This function includes:
 
