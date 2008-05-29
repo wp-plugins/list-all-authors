@@ -56,9 +56,9 @@ Anyone who wants to have a list of users with AND without posts, for exmple in m
 
 1. Download Plugin, unzip it and upload it to the to the root of your Wordpress "plugins" folder (should be file wp-content/plugins).
 2. Acivate it on the admin panel. 
-3. You get the list of authors wherever you want (sidebar or separate page) by using the following code (delete the code-tags):
+3. You get the list of authors wherever you want (sidebar or separate page) by using the function wp_all_authors.
 
-<code><?php if (function_exists('wp_all_authors')) { ?><?php wp_all_authors('show_fullname=0&optioncount=1&hide_empty=0&exclude_admin=0'); ?><?php } ?></code>
+<?php if (function_exists('wp_all_authors')) { ?><?php wp_all_authors('show_fullname=0&optioncount=1&hide_empty=0&exclude_admin=0'); ?><?php } ?>
 
 This function includes:
 
