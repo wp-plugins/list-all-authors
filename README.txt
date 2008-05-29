@@ -1,4 +1,4 @@
-=== Wordpress Plugin List-all-authors ===
+=== List-all-authors ===
 Contributors: Andrea Heinrich
 Donate link: http://www.song-line.de/2008/05/25/plugin-list-all-authors/
 Tags: Tags: author list, list, sidebar, admin, users
